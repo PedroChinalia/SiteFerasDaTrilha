@@ -3,6 +3,24 @@
   width:100%;
 }
 
+.barsIcon{  
+  position:absolute;
+  top: 110px;
+  right: 20px;
+}
+
+.menu{
+  width:300px;
+  padding:10px;
+  background-color:var(--backgroundLight);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  z-index: 10000;
+}
+
 .topside-header{
   background-color: var(--backgroundPrimary);
   height: 6vh;
@@ -28,7 +46,7 @@
   font-size: 12px;
   padding: 6px 15px;
   letter-spacing: 1px;
-  color: var(--secondaryText);
+  color: rgb(0, 0, 0);
 }
 
 .link-dark{
@@ -63,7 +81,7 @@
 
 
 .bottomside-header{
-  height: 8vh;
+  height: 4vh;
   padding-right: 8vw;
   width: 100%;
 
@@ -94,4 +112,22 @@
     height:100px;
   }
   
+}
+
+@media only screen and (max-width: 500px){
+  .bottomside-header{
+    position: absolute;
+    top:-100px;
+  }
+  .logo{
+    width:60px;
+    height: 50px;
+    margin-top:-10px
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .barsIcon{
+    top:-100px;
+  }
 }

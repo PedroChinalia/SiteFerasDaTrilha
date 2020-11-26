@@ -116,3 +116,18 @@
         margin-bottom: 50px;
     }
 }
+
+@media only screen and (max-width: 425px){
+    .school-gallery{
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 100px;
+    }
+
+    .gallery-item{
+        width:250px;
+    }
+
+    .escola-title{
+        text-align: center;
+    }
+}

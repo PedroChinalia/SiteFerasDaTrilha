@@ -207,3 +207,47 @@
         border-radius: 20px;
     }
 }
+
+@media screen and (max-width: 425px){
+    .desc-item, .desc-item-reverse{
+        flex-direction: column;
+    }
+
+    .desc-item h1{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 2.4rem;
+    }
+
+    .desc-item p{
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .imagemQuemSomos{
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .desc-item-reverse h1{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 2.4rem;
+        margin-left: 0;
+    }
+
+    .desc-item-reverse p{
+        margin-left: 65px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .imagemQuemSomosR{
+        width: 90%;
+        height: 300px;
+        margin-left: 15px;
+    }
+}

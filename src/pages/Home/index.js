@@ -29,10 +29,10 @@ function Home(){
                         <h1>Quem somos</h1>
 
                         <p className="description">
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. 
+                            Os Feras da Trilha é um grupo de amigos apaixonados pelo Off Road. 
+                            Nosso grupo é uma grande família.
+                            Os finais de semana são marcados por muita poeira e muita lama.
+                            Juntamos tudo, tem diversão para todos, as mulheres marcam presença e as crianças adoram, é só curtição!
                         </p>
 
                         <button className="description-btn">
@@ -65,10 +65,9 @@ function Home(){
                         <h1>Conheça nossas trilhas</h1>
 
                         <p className="description">
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. 
+                            Confira todos os percursos das trilhas que os Feras da Trilha se aventuram!
+                            Nossas trilhas são cheias de aventuras e muita diversão, com música, churrasco
+                            e muita comemoração.
                         </p>
 
                         <button className="description-btn">
@@ -101,10 +100,9 @@ function Home(){
                         <h1>Confira nossos eventos</h1>
 
                         <p className="description">
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
-                            Este é um exemplo de um parágrafo. 
+                            Fique por dentro dos eventos realizados pelos Feras da Trilha.
+                            Comemorações de aniversários e eventos beneficentes acontecem todo ano,
+                            promovendo muita felicidade e festividade!
                         </p>
 
                         <button className="description-btn">

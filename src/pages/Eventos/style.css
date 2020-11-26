@@ -200,3 +200,25 @@
         box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
     }
 }
+
+@media only screen and (max-width: 425px){
+    .card-noticias{
+        flex-direction: column;
+        height: 580px;
+    }
+
+    .card-noticias-img{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 220px;
+    }
+
+    .noticias-img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .noticias-text-card{
+        width: 100%;
+    }
+}
