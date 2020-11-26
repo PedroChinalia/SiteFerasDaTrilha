@@ -186,3 +186,37 @@
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 650px){
+
+    .contact{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .title{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .contact-card{
+        width:80%;
+        margin-bottom: 40px;
+        margin-top: 5px;
+        margin-left: 25px;
+    }
+
+    .contact-card h1{
+        font-size:3rem;
+    }
+
+    .cards-container p{
+        font-size:1.5rem;
+    }
+
+}

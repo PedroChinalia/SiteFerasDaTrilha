@@ -128,6 +128,23 @@
     }
 }
 
+@media only screen and (max-width: 1920px){
+    .card h1{
+        font-size: 22px;
+        margin-left: 70px;
+    }
+
+    .description{
+        font-size: 16px;
+        margin-left: 80px;
+    }
+
+    .description-btn p{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+}
+
 @media only screen and (max-width: 1440px){
     .card h1{
         width: 100%;
@@ -272,7 +289,7 @@
     }
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 450px){
     .carousel{
         display: flex;
         width: 100%;
@@ -280,51 +297,39 @@
         margin-bottom: 10px;
     }
 
+    .cards{
+        height: 800px;
+    }
+
     .card{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        background-color: transparent;
-        border-color: transparent;
+        flex-direction: column;
     }
 
     .card h1{
-        margin-bottom: 20px;
-        margin-top: 15px;
-        margin-left: 35px;
-        margin-right: 100px;
-        color: #000000;
-        font-family: verdana;
-        font-size: 14px;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 80px;
     }
-    
+
     .description{
-        font-size: 10px;
-        width: 50%;
-        font-family: arial;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 40px;
-        text-align: justify;
-        font-family: verdana;
+        margin-left: 55px;
     }
 
-    .description-btn p{
-        margin-top: 5px;
+    .description-btn{
+        margin-left: 60px;
+    }
+
+    .card-img{
+        width: 90%;
         margin-bottom: 20px;
-        margin-left: 10px;
-        font-weight: bold;
-        color: var(--secondaryTextDark)
+        margin-left: 30px;
     }
 
-    .card-img{   
-        width: 20%;
-        border-radius: 20px;
-        margin-right: 20px;
-        box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+    .cards-reverse{
+        height: 800px;
     }
 
+    .cards2{
+        height: 800px;
+    }
 }
