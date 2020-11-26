@@ -1,0 +1,202 @@
+.noticias-title-card{
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color:#000000;
+    font-family: verdana;
+}
+
+.card-noticias{
+    width: 60%;
+    height: 550px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color:#fff;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.noticias-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+}
+
+.noticias-text-card{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.card-noticias-img{
+    width: 50%;
+    height: 600px;
+}
+
+.noticias-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: verdana;
+}
+
+.noticias-text{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: verdana;
+}
+
+.noticia-btn{
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 20px;
+    color:rgb(0, 0, 0);
+}
+
+.noticia-btn:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1440px){
+    .noticias-title-card{
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        color:#000000;
+        font-family: verdana;
+    }
+
+    .card-noticias{
+        width: 90%;
+        height: 550px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        background-color:#fff;
+        display: flex;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    }
+    
+    .noticias-title{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-family: verdana;
+        font-size:25px;
+    }
+    
+    .noticias-text{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        font-family: verdana;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .noticias-title-card{
+        font-size: 35px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        color:#000000;
+        font-family: verdana;
+    }
+
+    .card-noticias{
+        width: 90%;
+        height: 550px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        background-color:#fff;
+        display: flex;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    .noticias-title{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-family: verdana;
+        font-size:25px;
+    }
+    
+    .noticias-text{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        font-family: verdana;
+        font-size: 14px;
+    }
+
+    .card-noticias-img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .noticias-title-card{
+        font-size: 30px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        color:#000000;
+        font-family: verdana;
+    }
+
+    .noticias-title{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-family: verdana;
+        font-size: 20px;
+    }
+    
+    .noticias-text{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        font-family: verdana;
+        font-size: 12px;
+    }
+
+    .noticia-btn{
+        background-color: transparent;
+        border-color: transparent;
+        margin-left: 20px;
+        color:rgb(0, 0, 0);
+        font-size: 12px;
+    }
+
+    .noticias-img{
+        height: 430px;
+        width: 100;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+    }
+
+    .card-noticias{
+        width: 90%;
+        height: 480px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        background-color:#fff;
+        display: flex;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    }
+}

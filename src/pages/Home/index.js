@@ -1,0 +1,138 @@
+import React from 'react';
+import RootPage from '../../components/RootPage';
+import SimpleSlider from '../../components/Carousel';
+import {Link} from 'react-router-dom';
+
+import img1 from '../../assets/images/home1.jpg'
+import img2 from '../../assets/images/home2.jpg'
+import img3 from '../../assets/images/home3.jpg'
+import img4 from '../../assets/images/home4.jpg'
+import img5 from '../../assets/images/home5.jpg'
+import img6 from '../../assets/images/home6.jpg'
+
+
+
+import './style.css';
+
+function Home(){
+    return(
+        <RootPage>
+            <div className="carousel">
+                <SimpleSlider />
+            </div>
+
+            <div className="cards">
+
+                <div className="card">
+                    <div>
+
+                        <h1>Quem somos</h1>
+
+                        <p className="description">
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. 
+                        </p>
+
+                        <button className="description-btn">
+                            <Link className="link" to="/quemsomos">
+                                <p>
+                                    SAIBA MAIS &gt;
+                                </p>
+                            </Link>
+                        </button>
+
+                    </div>
+                    <img 
+                        className="card-img"
+                        src={img1}
+                    />
+
+                    <img 
+                        className="card-img"
+                        src={img2}
+                    />
+                </div>   
+
+            </div>
+
+            <div className="cards-reverse">
+
+                <div className="card">
+                    <div>
+
+                        <h1>Conheça nossas trilhas</h1>
+
+                        <p className="description">
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. 
+                        </p>
+
+                        <button className="description-btn">
+                            <Link className="link" to="/trilhas">
+                                <p>
+                                    SAIBA MAIS &gt;
+                                </p>
+                            </Link>
+                        </button>
+
+                    </div>
+                    <img 
+                        className="card-img"
+                        src={img3}
+                    />
+
+                    <img 
+                        className="card-img"
+                        src={img4}
+                    />
+                </div>
+
+            </div>
+
+            <div className="cards2">
+
+                <div className="card">
+                    <div>
+
+                        <h1>Confira nossos eventos</h1>
+
+                        <p className="description">
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. Este é um exemplo de um parágrafo.
+                            Este é um exemplo de um parágrafo. 
+                        </p>
+
+                        <button className="description-btn">
+                            <Link className="link" to="/eventos">
+                                <p>
+                                    SAIBA MAIS &gt;
+                                </p>
+                            </Link>
+                        </button>
+
+                    </div>
+
+                    <img 
+                        className="card-img"
+                        src={img5}
+                    />
+
+                    <img 
+                        className="card-img"
+                        src={img6}
+                    />
+
+                </div>   
+
+            </div>
+
+        </RootPage>
+    )
+}
+
+export default Home;

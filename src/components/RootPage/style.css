@@ -1,0 +1,7 @@
+.content{
+    background-color: var(--backgroundGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

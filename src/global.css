@@ -1,0 +1,53 @@
+:root {
+  --backgroundLight: #FFFFFF;
+  --backgroundGrey: #F6F6F6;
+  --backgroundPrimary: #f3f045;
+  --primaryText: #000000;
+  --primaryTextDark: #442244;
+  --secondaryText: #ffF;
+  --secondaryTextDark: #000;
+
+  font-size: 60%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100vh;
+}
+
+body{
+  background-color: var(--backgroundGrey);
+}
+
+#root{
+  display: flex;
+  
+  justify-content: center;
+}
+
+body, 
+input, 
+button, 
+textarea{
+  font: 500 1.6rem Ubuntu;
+  color: var(--primaryText);
+  outline: none;
+}
+
+.container{
+  width: 90vw;
+  max-width: 700px;
+}
+
+
+@media (min-width:700px){
+  :root{
+      font-size: 62.5%
+  }
+}
