@@ -44,6 +44,7 @@ function Home(){
                         </button>
 
                     </div>
+
                     <img 
                         className="card-img"
                         src={img1}
@@ -53,6 +54,7 @@ function Home(){
                         className="card-img"
                         src={img2}
                     />
+                    
                 </div>   
 
             </div>

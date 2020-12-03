@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {Link} from "react-router-dom";
 import {FaBars, FaFontAwesomeLogoFull} from 'react-icons/fa';
-import logo from '../../assets/images/osferas.jpg'
+import logo from '../../assets/images/logo.png'
 
 //importanto Estilização do componente
 
